@@ -13,7 +13,7 @@ public class AddClass {
 		int a;
 		a = System.in.read();
 		c = add(b,a);
-		System.out.println(c-32);
+		System.out.println(c);
 	}
 
 }
