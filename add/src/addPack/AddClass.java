@@ -1,19 +1,23 @@
 package addPack;
 
 import java.io.IOException;
-
+import java.util.Scanner;
 public class AddClass {
 	public static int add(int a, int b){
-		return a+b;
+		int d;
+		d = a+b;
+		return d;
 	}
 	public static void main(String[] args) throws IOException {
 		int c;
 		int b;
-		b = System.in.read();
+		Scanner in = new Scanner(System.in);
+		b = in.nextInt();
 		int a;
-		a = System.in.read();
+		a = in.nextInt();
 		c = add(b,a);
-		System.out.println(c);
+		System.out.print(c);
+		
 	}
 
 }
