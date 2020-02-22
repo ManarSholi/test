@@ -2,8 +2,8 @@
 	<property name="srcCode" location = "./src/addPack/" />
 	<property name="classCode" location = "./targets" />
 	<target name="compile">
-		<mkdir destdir="${classCode}" />
-		<javac srcdir="${srcCode}" destdir="${classCode}" />
+		<mkdir dir="${classCode}" />
+		<javac dir="${srcCode}" dir="${classCode}" />
 	</target>
 	
 </project>
